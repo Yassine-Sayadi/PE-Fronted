@@ -69,7 +69,7 @@ class App extends Component{
   render() {
     return(
       <div style={{ background: '#ECECEC', padding: '30px' }}>
-        <Button type="primary" onClick={this.showModal}>Add product :)</Button>
+        <Button type="primary" onClick={this.showModal}>Add something!!!!</Button>
 
         <CollectionForm 
         wrappedComponentRef={this.saveFormRef}
