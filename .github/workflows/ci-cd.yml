@@ -21,7 +21,7 @@ jobs:
         docker push yassinesayadi/pe-frontend:latest
 
     - name: Sent post request to Portainer Service Webhook
-      uses: jasongitmail/fast-webhook@v1
+      uses: Yassine-Sayadi/fast-webhook-pe-bs2@v1
       with:
         url: ${{ secrets.WEBHOOK_URL }}
         json: '{}'
